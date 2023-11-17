@@ -213,7 +213,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px] ">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-1.png" alt="">
             <div
-              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-6 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +236,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px]">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-2.png" alt="">
             <div
-              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-8 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -262,7 +262,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex items-end md:w-[60%] lg:h-[415px] lg:w-[427px] ">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-3.png" alt="">
             <div
-              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-8 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -306,7 +306,7 @@ import Navbar from '../components/Navbar.vue'
               <p class="lg:text-base text-green-700">Experience</p>
             </div>
             <div
-              class="lg:w-80 lg:h-44 md:w-80 md:h-44 w-full rounded-3xl md:absolute md:left-[50%] md:bottom-[10%] lg:absolute right-[55%] bottom-[5%] bg-white p-6 flex items-center">
+              class="lg:w-80 lg:h-44 md:w-80 md:h-44 w-full rounded-3xl md:absolute md:left-[50%] md:bottom-[10%] lg:absolute lg:left-[-10%] lg:bottom-[5%] bg-white p-6 flex items-center">
               <div class="w-24 h-32 rounded-xl object-cover">
                 <img src="@/assets/image/bg-2.png" class="rounded-xl h-32 w-full" alt="">
               </div>
