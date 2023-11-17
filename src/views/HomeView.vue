@@ -6,10 +6,9 @@ import Navbar from '../components/Navbar.vue'
 <template>
   <main class=" bg-gray-100">
     <Navbar />
-
     <body>
-      <div class="items-center w-full p-5 mb-36 lg:justify-end lg:px-16 lg:mb-14 flex">
-        <div class="absolute right-[14%] top-[30%] lg:top-[45%] lg:absolute lg:left-12">
+      <div class="items-center w-full p-5 mb-36 md:mb-10 lg:justify-end lg:px-16 lg:mb-14 flex">
+        <div class="absolute right-[14%] top-[30%] md:right-[30%] md:left-[30%] md:top-[30%] lg:top-[45%] lg:absolute lg:left-12">
           <div class="w-[280px] h-[175px] p-4 lg:w-[430px] lg:h-[300px] bg-white rounded-3xl lg:p-6 flex flex-col">
             <div class="flex items-center mb-1">
               <svg class="w-3 h-3 lg:w-4 lg:h-4 ms-1 text-yellow-500" aria-hidden="true"
@@ -66,9 +65,9 @@ import Navbar from '../components/Navbar.vue'
         </div>
         <div class="flex items-center flex-col lg:flex-row lg:justify-between">
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
+            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
             <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
-              <div class="flex w-20 h-16 lg:w-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
+              <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
                 <img src="@/assets/icon/discount.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
               <div class="flex flex-col w-fit ml-4 lg:items-center lg:justify-center">
@@ -85,9 +84,9 @@ import Navbar from '../components/Navbar.vue'
             </button>
           </div>
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
+            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
             <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
-              <div class="flex w-20 h-16 lg:w-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
+              <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
                 <img src="@/assets/icon/menu.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
               <div class="flex flex-col w-fit ml-4 lg:items-center lg:justify-center">
@@ -105,9 +104,9 @@ import Navbar from '../components/Navbar.vue'
             </button>
           </div>
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
+            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
             <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
-              <div class="flex w-20 h-16 lg:w-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
+              <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
                 <img src="@/assets/icon/dolar.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
               <div class="flex flex-col w-fit ml-4 lg:items-center lg:justify-center">
@@ -124,9 +123,9 @@ import Navbar from '../components/Navbar.vue'
             </button>
           </div>
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
+            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
             <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
-              <div class="flex w-20 h-16 lg:w-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
+              <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
                 <img src="@/assets/icon/cleanliness.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
               <div class="flex flex-col w-fit ml-4 lg:items-center lg:justify-center">
@@ -163,7 +162,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex flex-col items-end w-full lg:h-[475px] lg:w-[400px] ">
             <img class="rounded-3xl h-full" src="@/assets/image/bg-1.png" alt="">
             <div
-              class="flex absolute p-4 left-[24%] top-[233%] lg:h-32 w-fit rounded-3xl justify-between items-center lg:left-[40%] lg:w-[20%] lg:top-[238%] lg:p-6 lg:z-10 lg:m-6 bg-white">
+              class="flex absolute p-4 left-[24%] top-[233%] md:w-80 md:left-[12%] md:top-[268%] lg:h-32 w-fit rounded-3xl justify-between items-center lg:left-[40%] lg:w-[20%] lg:top-[238%] lg:p-6 lg:z-10 lg:m-6 bg-white">
               <div class="flex flex-col">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -188,16 +187,16 @@ import Navbar from '../components/Navbar.vue'
               </button>
             </div>
           </div>
-          <div class="rounded-3xl hidden lg:w-[214px] lg:h-[475px] lg:flex">
-            <img class="rounded-3xl" src="@/assets/image/bg-2.png" alt="">
+          <div class="rounded-3xl hidden md:flex lg:w-[214px] lg:h-[475px] lg:flex">
+            <img class="rounded-3xl object-cover" src="@/assets/image/bg-2.png" alt="">
           </div>
-          <div class="rounded-3xl hidden lg:w-[214px] lg:h-[475px] lg:flex">
-            <img class="rounded-3xl" src="@/assets/image/bg-3.png" alt="">
+          <div class="rounded-3xl hidden md:flex lg:w-[214px] lg:h-[475px] lg:flex">
+            <img class="rounded-3xl object-cover" src="@/assets/image/bg-3.png" alt="">
           </div>
         </div>
       </div>
       <div class="w-full px-16 mb-14 lg:mb-40">
-        <div class="flex flex-col w-full justify-between items-center mb-8 lg:items-start lg:flex-row lg:mb-0">
+        <div class="flex flex-col w-full justify-between items-center mb-8 md:flex-row lg:items-start lg:flex-row lg:mb-0">
           <div class="flex flex-col mb-4 lg:mb-8">
             <p class="font-semibold text-xs mb-2 lg:text-base text-indigo-700 lg:mb-3">RESTAURANT BASED BY CITY</p>
             <h1 class="font-semibold text-base lg:text-3xl text-gray-900">Restaurant Near You</h1>
@@ -210,11 +209,11 @@ import Navbar from '../components/Navbar.vue'
             </button>
           </div>
         </div>
-        <div class="flex flex-col justify-between mb-8 lg:mb-14 lg:flex-row">
-          <div class="rounded-3xl flex items-end mb-4 lg:mb-0 lg:h-[415px] lg:w-[427px] ">
+        <div class="flex flex-col justify-between mb-8 md:items-center lg:mb-14 lg:flex-row">
+          <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px] ">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-1.png" alt="">
             <div
-              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-6 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -234,10 +233,10 @@ import Navbar from '../components/Navbar.vue'
               </button>
             </div>
           </div>
-          <div class="rounded-3xl flex items-end mb-4 lg:mb-0 lg:h-[415px] lg:w-[427px]">
+          <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px]">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-2.png" alt="">
             <div
-              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-8 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -260,10 +259,10 @@ import Navbar from '../components/Navbar.vue'
               </button>
             </div>
           </div>
-          <div class="rounded-3xl flex items-end lg:h-[415px] lg:w-[427px] ">
+          <div class="rounded-3xl flex items-end md:w-[60%] lg:h-[415px] lg:w-[427px] ">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-3.png" alt="">
             <div
-              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-8 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -294,12 +293,12 @@ import Navbar from '../components/Navbar.vue'
           </button>
         </div>
       </div>
-      <div class="flex flex-col p-8 gap-12s lg:pl-32 lg:pr-16 lg:pb-40 lg:gap-28 lg:flex-row">
-        <div class="rounded-3xl lg:relative">
+      <div class="flex flex-col p-8 gap-12 lg:pl-32 lg:pr-16 lg:pb-40 lg:gap-28 lg:flex-row">
+        <div class="rounded-3xl md:relative lg:relative">
           <img src="@/assets/image/chef.png" class="rounded-3xl mb-6 lg:mb-0" alt="">
-          <div class="flex flex-col items-center">
+          <div class="flex flex-col mb-4 items-center lg:mb-0">
             <div
-              class="w-fit lg:w-44 lg:h-52 mb-6 p-6 rounded-3xl lg:absolute lg:left-[75%] lg:bottom-[70%] z-99 bg-white flex flex-col items-center justify-center lg:p-0 lg:mb-0">
+              class="w-fit lg:w-44 lg:h-52 md:w-48 md:h-60 mb-6 p-6 rounded-3xl md:absolute md:left-[65%] md:bottom-[60%] lg:absolute lg:left-[75%] lg:bottom-[70%] z-99 bg-white flex flex-col items-center justify-center lg:p-0 lg:mb-0">
               <div class="lg:w-20 lg:h-20 rounded-full bg-orange-100 flex items-center justify-center mb-3">
                 <img src="@/assets/icon/experience.svg" class="w-12 h-12" alt="">
               </div>
@@ -307,7 +306,7 @@ import Navbar from '../components/Navbar.vue'
               <p class="lg:text-base text-green-700">Experience</p>
             </div>
             <div
-              class="lg:w-80 lg:h-44 w-full rounded-3xl lg:absolute right-[55%] bottom-[5%] bg-white p-6 flex items-center">
+              class="lg:w-80 lg:h-44 md:w-80 md:h-44 w-full rounded-3xl md:absolute md:left-[50%] md:bottom-[10%] lg:absolute right-[55%] bottom-[5%] bg-white p-6 flex items-center">
               <div class="w-24 h-32 rounded-xl object-cover">
                 <img src="@/assets/image/bg-2.png" class="rounded-xl h-32 w-full" alt="">
               </div>
