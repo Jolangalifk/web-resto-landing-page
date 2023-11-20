@@ -12,10 +12,21 @@
 
             <!-- Konten Sidebar -->
             <ul>
-                <li class="mb-2 text-base font-semibold">Home</li>
-                <li class="mb-2 text-base font-semibold">Category</li>
-                <li class="mb-2 text-base font-semibold">Service</li>
-                <li class="mb-2 text-base font-semibold">About us</li>
+                <li :class="{ 'border-b-2 border-indigo-700 w-fit': $route.path === '/' }" class="mb-2">
+                    <router-link to="/" class="text-base font-semibold">Home</router-link>
+                </li>
+                <li :class="{ 'border-b-2 border-indigo-700 w-fit': $route.path.startsWith('/category') }"
+                    class="mb-2 text-base font-semibold">
+                    Category
+                </li>
+                <li :class="{ 'border-b-2 border-indigo-700 w-fit': $route.path === '/service' }"
+                    class="mb-2 text-base font-semibold">
+                    Service
+                </li>
+                <li :class="{ 'border-b-2 border-indigo-700 w-fit': $route.path === '/about' }"
+                    class="mb-2 text-base font-semibold">
+                    About us
+                </li>
             </ul>
         </aside>
 
@@ -24,15 +35,23 @@
             class="w-full h-auto bg-transparent-600 flex flex-row justify-between items-center p-5 pl-4 md:p-10 lg:p-16 lg:pt-15">
             <nav class="w-1/3 flex-row items-center p-4 hidden lg:flex" :class="{ 'translate-x-0': showSidebar }">
                 <ul class="w-full flex flex-row justify-between">
-                    <li class="text-base text-gray-900 font-semibold border-b-2 border-indigo-700">Home</li>
+                    <li :class="{ 'border-b-2 border-indigo-700 w-fit': $route.path === '/' }">
+                        <router-link to="/" class="text-base text-gray-900 font-semibold ">Home</router-link>
+                    </li>
                     <div class="dropdown">
                         <button class="flex flex-row items-center">
                             <p class="text-base text-gray-900 font-semibold mr-2">Category</p>
                             <img src="@/assets/icon/arrow-down-light.svg" class="w-2 h-2" alt="">
                         </button>
                     </div>
-                    <li class="text-base text-gray-900 font-semibold">Service</li>
-                    <li class="text-base text-gray-900 font-semibold">About us</li>
+                    <li :class="{ 'border-b-2 border-indigo-700 w-fit': $route.path === '/service' }"
+                        class="text-base text-gray-900 font-semibold">
+                        Service
+                    </li>
+                    <li :class="{ 'border-b-2 border-indigo-700 w-fit': $route.path === '/about' }"
+                        class="text-base text-gray-900 font-semibold">
+                        About us
+                    </li>
                 </ul>
             </nav>
             <div class="flex">
@@ -67,6 +86,7 @@ import { ref } from 'vue'
 const showSidebar = ref(false)
 
 const closeSidebar = () => {
-  showSidebar.value = false
+    showSidebar.value = false
 }
 </script>
+  

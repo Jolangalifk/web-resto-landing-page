@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar.vue'
     <Navbar />
     <body>
       <div class="items-center w-full p-5 mb-36 md:mb-10 lg:justify-end lg:px-16 lg:mb-14 flex">
-        <div class="absolute right-[14%] top-[30%] md:right-[30%] md:left-[30%] md:top-[22%] lg:top-[45%] lg:absolute lg:left-12">
+        <div class="absolute right-[14%] top-[30%] md:right-[30%] md:left-[32%] md:top-[22%] lg:top-[45%] lg:absolute lg:left-12">
           <div class="w-[280px] h-[175px] p-4 lg:w-[430px] lg:h-[300px] bg-white rounded-3xl lg:p-6 flex flex-col">
             <div class="flex items-center mb-1">
               <svg class="w-3 h-3 lg:w-4 lg:h-4 ms-1 text-yellow-500" aria-hidden="true"
@@ -158,11 +158,11 @@ import Navbar from '../components/Navbar.vue'
           </button>
         </div>
         <div class="flex gap-x-3 lg:gap-x-6">
-          <div class="rounded-3xl flex flex-col items-end w-full lg:h-[475px] lg:w-[400px] ">
-            <img class="rounded-3xl h-full" src="@/assets/image/bg-1.png" alt="">
+          <div class="rounded-3xl flex flex-col items-end w-full lg:h-[475px] lg:w-[400px]">
+            <img class="rounded-3xl w-full lg:w-[400px] lg:h-[475px] lg:object-cover lg:absolute" src="@/assets/image/bg-1.png" alt="">
             <div
-              class="flex absolute p-4 left-[24%] top-[233%] md:w-80 md:left-[15%] md:top-[185%] lg:h-32 w-fit rounded-3xl justify-between items-center lg:left-[40%] lg:w-[20%] lg:top-[238%] lg:p-6 lg:z-10 lg:m-6 bg-white">
-              <div class="flex flex-col">
+              class="absolute flex lg:w-[23%] lg:h-32 w-fit rounded-3xl justify-between items-center p-4 mt-[195px] mr-[18px] md:w-[46%] md:mt-[385px] md:left-[10%] lg:p-6 z-10 lg:m-6 lg:mt-[330px] lg:ml-[465px] bg-white lg:flex">
+              <div class="flex flex-col mr-auto">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor" viewBox="0 0 22 20">
@@ -172,16 +172,14 @@ import Navbar from '../components/Navbar.vue'
                   <p class="font-semibold text-xs lg:text-lg text-yellow-500 mr-2">5.0</p>
                   <p class="text-gray-700 text-xs lg:text-base">(7.6K+)</p>
                 </div>
-                <div class="flex flex-col">
-                  <h1 class="font-semibold text-base lg:text-2xl text-black mb-1">Bind Balorant</h1>
-                  <div class="flex">
-                    <img src="@/assets/icon/location.svg" class="w-4 h-4" alt="">
-                    <p class="text-gray-700 text-xs lg:text-base ml-1 lg:ml-2">Padang, Indonesia</p>
-                  </div>
-                </div>
+                <h1 class="font-semibold text-base text-black mb-1">Bind Balorant</h1>
+                <div class="flex">
+                  <img src="@/assets/icon/location.svg" class="w-4 h-4" alt="">
+                  <p class="text-gray-700 text-xs lg:text-base ml-1 lg:ml-2">Jakarta, Indonesia</p>
+                </div>
               </div>
               <button
-                class="flex items-center justify-center w-6 h-6 ml-4 rounded-lg lg:w-9 lg:h-9 lg:ml-6 lg:rounded-xl bg-orange-300">
+                class="flex items-center rounded-lg justify-center w-6 h-6 lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300">
                 <img src="@/assets/icon/arrow-right-1.svg" alt="">
               </button>
             </div>
