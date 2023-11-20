@@ -1,5 +1,4 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 import Navbar from '../components/Navbar.vue'
 </script>
 
@@ -8,7 +7,7 @@ import Navbar from '../components/Navbar.vue'
     <Navbar />
     <body>
       <div class="items-center w-full p-5 mb-36 md:mb-10 lg:justify-end lg:px-16 lg:mb-14 flex">
-        <div class="absolute right-[14%] top-[30%] md:right-[30%] md:left-[30%] md:top-[30%] lg:top-[45%] lg:absolute lg:left-12">
+        <div class="absolute right-[14%] top-[30%] md:right-[30%] md:left-[30%] md:top-[22%] lg:top-[45%] lg:absolute lg:left-12">
           <div class="w-[280px] h-[175px] p-4 lg:w-[430px] lg:h-[300px] bg-white rounded-3xl lg:p-6 flex flex-col">
             <div class="flex items-center mb-1">
               <svg class="w-3 h-3 lg:w-4 lg:h-4 ms-1 text-yellow-500" aria-hidden="true"
@@ -162,7 +161,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex flex-col items-end w-full lg:h-[475px] lg:w-[400px] ">
             <img class="rounded-3xl h-full" src="@/assets/image/bg-1.png" alt="">
             <div
-              class="flex absolute p-4 left-[24%] top-[233%] md:w-80 md:left-[12%] md:top-[268%] lg:h-32 w-fit rounded-3xl justify-between items-center lg:left-[40%] lg:w-[20%] lg:top-[238%] lg:p-6 lg:z-10 lg:m-6 bg-white">
+              class="flex absolute p-4 left-[24%] top-[233%] md:w-80 md:left-[15%] md:top-[185%] lg:h-32 w-fit rounded-3xl justify-between items-center lg:left-[40%] lg:w-[20%] lg:top-[238%] lg:p-6 lg:z-10 lg:m-6 bg-white">
               <div class="flex flex-col">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -213,7 +212,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px] ">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-1.png" alt="">
             <div
-              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[48%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-6 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +235,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px]">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-2.png" alt="">
             <div
-              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[48%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-8 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -262,7 +261,7 @@ import Navbar from '../components/Navbar.vue'
           <div class="rounded-3xl flex items-end md:w-[60%] lg:h-[415px] lg:w-[427px] ">
             <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-3.png" alt="">
             <div
-              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[47%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
+              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[48%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
               <div class="flex flex-col mr-8 lg:mr-[75px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
