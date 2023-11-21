@@ -1,13 +1,11 @@
-<script setup>
-import Navbar from '../components/Navbar.vue'
-</script>
-
 <template>
   <main class=" bg-gray-100">
     <Navbar />
+
     <body>
       <div class="items-center w-full p-5 mb-36 md:mb-10 lg:justify-end lg:px-16 lg:mb-14 flex">
-        <div class="absolute right-[14%] top-[30%] md:right-[30%] md:left-[32%] md:top-[22%] lg:top-[45%] lg:absolute lg:left-12">
+        <div
+          class="absolute right-[14%] top-[30%] md:right-[30%] md:left-[32%] md:top-[22%] lg:top-[45%] lg:absolute lg:left-12">
           <div class="w-[280px] h-[175px] p-4 lg:w-[430px] lg:h-[300px] bg-white rounded-3xl lg:p-6 flex flex-col">
             <div class="flex items-center mb-1">
               <svg class="w-3 h-3 lg:w-4 lg:h-4 ms-1 text-yellow-500" aria-hidden="true"
@@ -62,10 +60,10 @@ import Navbar from '../components/Navbar.vue'
           <p class="font-semibold text-xs mb-2 lg:text-base text-indigo-700 lg:mb-4">SPECIAL BENEFIT FOR YOU</p>
           <h1 class="font-semibold text-base lg:text-3xl text-gray-900">Why Should Choose Us?</h1>
         </div>
-        <div class="flex items-center flex-col lg:flex-row lg:justify-between">
+        <div class="grid grid-cols-1 gap-8 h-fit lg:h-[367px] sm:grid-cols-2 lg:grid-cols-4">
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
-            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
+            class="flex flex-col items-center w-full justify-center p-5 lg:p-0 md:items-start lg:h-full rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden">
+            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0 lg:w-fit">
               <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
                 <img src="@/assets/icon/discount.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
@@ -83,10 +81,10 @@ import Navbar from '../components/Navbar.vue'
             </button>
           </div>
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
-            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
+            class="flex flex-col items-center w-full justify-center p-5 lg:p-0 md:items-start lg:h-full rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden">
+            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0 lg:w-fit">
               <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
-                <img src="@/assets/icon/menu.svg" class="w-[60%] lg:w-[70%]" alt="">
+                <img src="@/assets/icon/discount.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
               <div class="flex flex-col w-fit ml-4 lg:items-center lg:justify-center">
                 <h1 class="font-semibold text-base text-gray-900 lg:text-lg mb-2 w-fit">Come and Eat</h1>
@@ -103,10 +101,10 @@ import Navbar from '../components/Navbar.vue'
             </button>
           </div>
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
-            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
+            class="flex flex-col items-center w-full justify-center p-5 lg:p-0 md:items-start lg:h-full rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden">
+            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0 lg:w-fit">
               <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
-                <img src="@/assets/icon/dolar.svg" class="w-[60%] lg:w-[70%]" alt="">
+                <img src="@/assets/icon/discount.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
               <div class="flex flex-col w-fit ml-4 lg:items-center lg:justify-center">
                 <h1 class="font-semibold text-base text-gray-900 lg:text-lg mb-2 w-fit">No Extra Fee</h1>
@@ -122,10 +120,10 @@ import Navbar from '../components/Navbar.vue'
             </button>
           </div>
           <div
-            class="flex flex-col items-center justify-center mb-6 p-5 lg:p-0 md:w-full md:items-start lg:w-[335px] lg:h-[367px] rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden lg:mb-0">
-            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0">
+            class="flex flex-col items-center w-full justify-center p-5 lg:p-0 md:items-start lg:h-full rounded-3xl lg:pt-6 bg-white lg:justify-between overflow-hidden">
+            <div class="flex mb-6 items-center lg:justify-center lg:flex-col lg:mb-0 lg:w-fit">
               <div class="flex w-20 h-16 md:h-20 lg:h-20 rounded-full bg-orange-100 items-center justify-center lg:mb-6">
-                <img src="@/assets/icon/cleanliness.svg" class="w-[60%] lg:w-[70%]" alt="">
+                <img src="@/assets/icon/discount.svg" class="w-[60%] lg:w-[70%]" alt="">
               </div>
               <div class="flex flex-col w-fit ml-4 lg:items-center lg:justify-center">
                 <h1 class="font-semibold text-base text-gray-900 lg:text-lg mb-2 w-fit">Guaranteed Cleanliness</h1>
@@ -158,11 +156,13 @@ import Navbar from '../components/Navbar.vue'
           </button>
         </div>
         <div class="flex gap-x-3 lg:gap-x-6">
-          <div class="rounded-3xl flex flex-col items-end w-full lg:h-[475px] lg:w-[400px]">
-            <img class="rounded-3xl w-full lg:w-[400px] lg:h-[475px] lg:object-cover lg:absolute" src="@/assets/image/bg-1.png" alt="">
+          <div class="flex w-full relative justify-between rounded-3xl border lg:w-fit">
+            <div class="w-full h-full rounded-md lg:w-[350px]">
+              <img class="object-cover w-full h-full rounded-3xl" src="@/assets/image/bg-1.png" alt="">
+            </div>
             <div
-              class="absolute flex lg:w-[23%] lg:h-32 w-fit rounded-3xl justify-between items-center p-4 mt-[195px] mr-[18px] md:w-[46%] md:mt-[385px] md:left-[10%] lg:p-6 z-10 lg:m-6 lg:mt-[330px] lg:ml-[465px] bg-white lg:flex">
-              <div class="flex flex-col mr-auto">
+              class="absolute flex w-[85%] max-w-full rounded-3xl justify-between items-center bottom-0 right-0 left-0 mx-auto bg-white m-4 p-4 h-fit lg:m-6 lg:p-6 space-x-3 lg:space-x-6">
+              <div class="flex flex-col md:w-[247px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor" viewBox="0 0 22 20">
@@ -172,46 +172,78 @@ import Navbar from '../components/Navbar.vue'
                   <p class="font-semibold text-xs lg:text-lg text-yellow-500 mr-2">5.0</p>
                   <p class="text-gray-700 text-xs lg:text-base">(7.6K+)</p>
                 </div>
-                <h1 class="font-semibold text-base text-black mb-1">Bind Balorant</h1>
+                <h1 class="font-semibold text-sm text-black mb-1 lg:text-lg">Bind Balorant</h1>
                 <div class="flex">
                   <img src="@/assets/icon/location.svg" class="w-4 h-4" alt="">
                   <p class="text-gray-700 text-xs lg:text-base ml-1 lg:ml-2">Jakarta, Indonesia</p>
-                </div>
+                </div>
               </div>
               <button
-                class="flex items-center rounded-lg justify-center w-6 h-6 lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300">
+                class="items-center rounded-lg justify-center w-6 h-6 flex lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300 lg:ml-16">
                 <img src="@/assets/icon/arrow-right-1.svg" alt="">
               </button>
             </div>
           </div>
-          <div class="rounded-3xl hidden md:flex lg:w-[214px] lg:h-[475px] lg:flex">
-            <img class="rounded-3xl object-cover" src="@/assets/image/bg-2.png" alt="">
+          <div class="rounded-3xl hidden md:flex lg:w-[164px] lg:flex">
+            <img class="rounded-3xl object-cover w-full h-full" src="@/assets/image/bg-2.png" alt="">
           </div>
-          <div class="rounded-3xl hidden md:flex lg:w-[214px] lg:h-[475px] lg:flex">
-            <img class="rounded-3xl object-cover" src="@/assets/image/bg-3.png" alt="">
+          <div class="rounded-3xl hidden md:flex lg:w-[164px] lg:flex">
+            <img class="rounded-3xl object-cover w-full h-full" src="@/assets/image/bg-3.png" alt="">
           </div>
         </div>
       </div>
       <div class="w-full px-16 mb-14 lg:mb-40">
-        <div class="flex flex-col w-full justify-between items-center mb-8 md:flex-row lg:items-start lg:flex-row lg:mb-0">
+        <div
+          class="flex flex-col w-full justify-between items-center mb-8 md:flex-row lg:items-start lg:flex-row lg:mb-0">
           <div class="flex flex-col mb-4 lg:mb-8">
             <p class="font-semibold text-xs mb-2 lg:text-base text-indigo-700 lg:mb-3">RESTAURANT BASED BY CITY</p>
             <h1 class="font-semibold text-base lg:text-3xl text-gray-900">Restaurant Near You</h1>
           </div>
-          <div class="flex w-48 h-11 p-2 lg:w-64 lg:h-16 rounded-xl bg-gray-200 justify-between items-center lg:p-6">
-            <img src="@/assets/icon/location.svg" class="w-4 h-4 lg:w-6 lg:h-6" alt="">
-            <p class="font-medium text-xs lg:text-base text-gray-600">Jakarta, Indonesia</p>
-            <button>
-              <img src="@/assets/icon/arrow-down-light.svg" class="w-3 h-3 lg:w-2 lg:h-2" alt="">
-            </button>
+          <div class="relative flex w-48 h-11 lg:w-64 lg:h-16 rounded-xl bg-gray-200 justify-between items-center">
+            <div class="w-full flex">
+              <button type="button" @click="toggleDropdown" class="flex w-full gap-2 justify-center items-center rounded-md px-3"
+                :aria-expanded="isDropdownOpen.toString()" aria-haspopup="true">
+                <img src="@/assets/icon/location.svg" class="w-4 h-4 lg:w-6 lg:h-6" alt="">
+                <span class="text-xs font-medium text-gray-500 lg:text-base">{{ selectedOption }}</span>
+                <svg class="-mr-1 w-3 h-3 text-gray-500 lg:h-5 lg:w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                    clip-rule="evenodd" />
+                </svg>
+              </button>
+            </div>
+            <div v-show="isDropdownOpen"
+              class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+              role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+              <div class="py-1" role="none">
+                <a href="#" @click.prevent="selectOption('Jakarta, Indonesia')" class="text-gray-700 block px-4 py-2 text-sm"
+                  role="menuitem" tabindex="-1">
+                  Jakarta, Indonesia
+                </a>
+                <a href="#" @click.prevent="selectOption('Bandung, Indonesia')" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem"
+                  tabindex="-1">
+                  Bandung, Indonesia
+                </a>
+                <a href="#" @click.prevent="selectOption('Sunda, Indonesia')" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem"
+                  tabindex="-1">
+                  Sunda, Indonesia
+                </a>
+                <a href="#" @click.prevent="selectOption('Bali, Indonesia')" class="text-gray-700 block px-4 py-2 text-sm"
+                  role="menuitem" tabindex="-1">
+                  Bali, Indonesia
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="flex flex-col justify-between mb-8 md:items-center lg:mb-14 lg:flex-row">
-          <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px] ">
-            <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-1.png" alt="">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mb-10">
+          <div class="flex relative justify-between rounded-3xl border">
+            <div class="w-full h-full rounded-md">
+              <img class="object-cover w-full h-full rounded-3xl" src="@/assets/image/resto-1.png" alt="">
+            </div>
             <div
-              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[48%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
-              <div class="flex flex-col mr-6 lg:mr-[75px]">
+              class="absolute flex w-[90%] max-w-full rounded-3xl justify-between items-center bottom-0 right-0 left-0 mx-auto bg-white m-4 p-4 h-fit lg:m-6 lg:p-6 space-x-3 lg:space-x-6">
+              <div class="flex flex-col w-40 md:w-[247px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor" viewBox="0 0 22 20">
@@ -221,20 +253,22 @@ import Navbar from '../components/Navbar.vue'
                   <p class="font-semibold text-xs lg:text-lg text-yellow-500 mr-2">5.0</p>
                   <p class="text-gray-700 text-xs lg:text-base">(6.6K+)</p>
                 </div>
-                <h1 class="font-semibold text-base text-black mb-1">Batavia Restaurant</h1>
-                <p class="text-gray-700 text-xs lg:text-lg font-semibold">IDR 29.000 - IDR 259.999</p>
+                <h1 class="font-semibold text-sm text-black mb-1 lg:text-lg">Batavia Restaurant</h1>
+                <p class="text-gray-700 text-xs font-semibold lg:text-lg">IDR 29.000 - IDR 259.999</p>
               </div>
               <button
-                class="flex items-center rounded-lg justify-center w-6 h-6 lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300">
+                class="items-center rounded-lg justify-center w-6 h-6 flex lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300 lg:ml-16">
                 <img src="@/assets/icon/arrow-right-1.svg" alt="">
               </button>
             </div>
           </div>
-          <div class="rounded-3xl flex items-end mb-4 md:w-[60%] lg:mb-0 lg:h-[415px] lg:w-[427px]">
-            <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-2.png" alt="">
+          <div class="flex relative justify-between rounded-3xl border">
+            <div class="w-full h-full rounded-md">
+              <img class="object-cover w-full h-full rounded-3xl" src="@/assets/image/resto-2.png" alt="">
+            </div>
             <div
-              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[48%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
-              <div class="flex flex-col mr-8 lg:mr-[75px]">
+              class="absolute flex w-[90%] max-w-full rounded-3xl justify-between items-center bottom-0 right-0 left-0 mx-auto bg-white m-4 p-4 h-fit lg:m-6 lg:p-6 space-x-3 lg:space-x-6">
+              <div class="flex flex-col w-40 md:w-[247px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor" viewBox="0 0 22 20">
@@ -244,23 +278,22 @@ import Navbar from '../components/Navbar.vue'
                   <p class="font-semibold text-xs lg:text-lg text-yellow-500 mr-2">5.0</p>
                   <p class="text-gray-700 text-xs lg:text-base">(3.6K+)</p>
                 </div>
-                <div class="flex lg:flex">
-                  <h1 class="font-semibold text-base text-black mb-1 lg:mr-2">Split Ascent</h1>
-                  <span class="font-semibold text-base text-black mb-1 hidden lg:flex">Restaurant</span>
-                </div>
-                <p class="text-gray-700 text-xs lg:text-lg font-semibold">IDR 49.999 - IDR 560.000</p>
+                <h1 class="font-semibold text-base text-black mb-1">Split Ascent Restaurant</h1>
+                <p class="text-gray-700 text-xs lg:text-lg font-semibold">IDR 29.000 - IDR 259.999</p>
               </div>
               <button
-                class="flex items-center rounded-lg justify-center w-6 h-6 lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300">
+                class="items-center rounded-lg justify-center w-6 h-6 flex lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300 lg:ml-16">
                 <img src="@/assets/icon/arrow-right-1.svg" alt="">
               </button>
             </div>
           </div>
-          <div class="rounded-3xl flex items-end md:w-[60%] lg:h-[415px] lg:w-[427px] ">
-            <img class="rounded-3xl w-full lg:w-auto lg:absolute" src="@/assets/image/resto-3.png" alt="">
+          <div class="flex relative justify-between rounded-3xl border">
+            <div class="w-full h-full rounded-md">
+              <img class="object-cover w-full h-full rounded-3xl" src="@/assets/image/resto-1.png" alt="">
+            </div>
             <div
-              class="absolute flex lg:w-fit lg:h-32 w-fit rounded-3xl justify-between items-center ml-3 mb-3 p-4 md:w-[48%] lg:p-6 z-10 lg:m-6 bg-white lg:flex">
-              <div class="flex flex-col mr-8 lg:mr-[75px]">
+              class="absolute flex w-[90%] max-w-full rounded-3xl justify-between items-center bottom-0 right-0 left-0 mx-auto bg-white m-4 p-4 h-fit lg:m-6 lg:p-6 space-x-3 lg:space-x-6">
+              <div class="flex flex-col w-40 md:w-[247px]">
                 <div class="flex flex-row items-center">
                   <svg class="w-4 h-4 ms-1 text-yellow-500 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor" viewBox="0 0 22 20">
@@ -270,14 +303,11 @@ import Navbar from '../components/Navbar.vue'
                   <p class="font-semibold text-xs lg:text-lg text-yellow-500 mr-2">5.0</p>
                   <p class="text-gray-700 text-xs lg:text-base">(11K+)</p>
                 </div>
-                <div class="flex lg:flex">
-                  <h1 class="font-semibold text-base text-black mb-1 lg:mr-2">Daza Fracture</h1>
-                  <span class="font-semibold text-base text-black mb-1 hidden lg:flex">Restaurant</span>
-                </div>
+                <h1 class="font-semibold text-base text-black mb-1">Daza Fracture Restaurant</h1>
                 <p class="text-gray-700 text-xs lg:text-lg font-semibold">IDR 29.999 - IDR 560.000</p>
               </div>
               <button
-                class="flex items-center rounded-lg justify-center w-6 h-6 lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300">
+                class="items-center rounded-lg justify-center w-6 h-6 flex lg:w-9 lg:h-9 lg:rounded-xl bg-orange-300 lg:ml-16">
                 <img src="@/assets/icon/arrow-right-1.svg" alt="">
               </button>
             </div>
@@ -292,7 +322,7 @@ import Navbar from '../components/Navbar.vue'
       </div>
       <div class="flex flex-col p-8 gap-12 lg:pl-32 lg:pr-16 lg:pb-40 lg:gap-28 lg:flex-row">
         <div class="rounded-3xl md:relative lg:relative">
-          <img src="@/assets/image/chef.png" class="rounded-3xl mb-6 lg:mb-0" alt="">
+          <img src="@/assets/image/chef.png" class="rounded-3xl mb-6 w-full md:w-fit lg:mb-0" alt="">
           <div class="flex flex-col mb-4 items-center lg:mb-0">
             <div
               class="w-fit lg:w-44 lg:h-52 md:w-48 md:h-60 mb-6 p-6 rounded-3xl md:absolute md:left-[65%] md:bottom-[60%] lg:absolute lg:left-[75%] lg:bottom-[70%] z-99 bg-white flex flex-col items-center justify-center lg:p-0 lg:mb-0">
@@ -325,10 +355,10 @@ import Navbar from '../components/Navbar.vue'
             <h1 class="font-semibold text-base lg:text-3xl text-gray-900 text-center lg:text-start">Restaurant Near You
             </h1>
           </div>
-          <div class="flex lg:h-36 w-full p-6 rounded-3xl bg-white justify-between mb-5">
+          <div class="flex lg:h-fit w-full p-6 rounded-3xl bg-white justify-between mb-5">
             <div class="flex flex-col justify-between">
-              <p class="font-medium text-xs lg:text-base text-green-700">PIZZA</p>
-              <h1 class="font-semibold text-base lg:text-xl text-gray-900">Phoenix Satcheup</h1>
+              <p class="font-medium text-xs lg:text-base text-green-700 lg:mb-1">PIZZA</p>
+              <h1 class="font-semibold text-base lg:text-xl text-gray-900 lg:mb-1">Phoenix Satcheup</h1>
               <div class="flex">
                 <img src="@/assets/icon/location.svg" class="w-4 h-4 lg:w-6 lg:h-6" alt="">
                 <p class="font-medium text-xs lg:text-base text-gray-600 ml-1 lg:ml-2">Jakarta, Indonesia</p>
@@ -339,42 +369,59 @@ import Navbar from '../components/Navbar.vue'
               <img src="@/assets/icon/arrow-right-orange-1.svg" class="w-6 h-6" alt="">
             </div>
           </div>
-          <div class="flex lg:h-36 w-full p-6 rounded-3xl justify-between mb-5">
+          <div class="flex lg:h-fit w-full p-6 rounded-3xl justify-between mb-5">
             <div class="flex flex-col justify-between">
-              <p class="font-medium text-xs lg:text-base text-green-700">VEGAN</p>
-              <h1 class="font-semibold text-base lg:text-xl text-gray-900">Chamber Botfrag</h1>
+              <p class="font-medium text-xs lg:text-base text-green-700 lg:mb-1">VEGAN</p>
+              <h1 class="font-semibold text-base lg:text-xl text-gray-900 lg:mb-1">Chamber Botfrag</h1>
               <div class="flex">
                 <img src="@/assets/icon/location.svg" class="w-4 h-4 lg:w-6 lg:h-6" alt="">
                 <p class="font-medium text-xs lg:text-base text-gray-600 ml-1 lg:ml-2">Jakarta, Indonesia</p>
               </div>
             </div>
           </div>
-          <div class="flex lg:h-36 w-full p-6 rounded-3xl justify-between mb-5">
+          <div class="flex lg:h-fit w-full p-6 rounded-3xl justify-between mb-5">
             <div class="flex flex-col justify-between">
-              <p class="font-medium text-xs lg:text-base text-green-700">ROAST CHICKEN</p>
-              <h1 class="font-semibold text-base lg:text-xl text-gray-900">Asep Vandal</h1>
+              <p class="font-medium text-xs lg:text-base text-green-700 lg:mb-1">ROAST CHICKEN</p>
+              <h1 class="font-semibold text-base lg:text-xl text-gray-900 lg:mb-1">Asep Vandal</h1>
               <div class="flex">
                 <img src="@/assets/icon/location.svg" class="w-4 h-4 lg:w-6 lg:h-6" alt="">
                 <p class="font-medium text-xs lg:text-base text-gray-600 ml-1 lg:ml-2">Jakarta, Indonesia</p>
               </div>
             </div>
           </div>
-          <div class="flex lg:h-36 w-full p-6 rounded-3xl justify-between mb-5">
+          <div class="flex lg:h-fit w-full p-6 rounded-3xl justify-between mb-5">
             <div class="flex flex-col justify-between">
-              <p class="font-medium text-xs lg:text-base text-green-700">BEEF STEAK</p>
-              <h1 class="font-semibold text-base lg:text-xl text-gray-900">I Made Invoker</h1>
+              <p class="font-medium text-xs lg:text-base text-green-700 lg:mb-1">BEEF STEAK</p>
+              <h1 class="font-semibold text-base lg:text-xl text-gray-900 lg:mb-1">I Made Invoker</h1>
               <div class="flex">
                 <img src="@/assets/icon/location.svg" class="w-4 h-4 lg:w-6 lg:h-6" alt="">
                 <p class="font-medium text-xs lg:text-base text-gray-600 ml-1 lg:ml-2">Jakarta, Indonesia</p>
               </div>
             </div>
+          </div>
+          <button class="w-fit lg:h-14 bg-orange-300 rounded-xl p-4 flex items-center justify-center px-7 py-4">
+            <p class="font-semibold text-xs lg:text-base text-black mr-2">View All Chef</p>
+            <img src="@/assets/icon/arrow.svg" class="w-2 h-2" alt="">
+          </button>
         </div>
-        <button class="w-fit lg:h-14 bg-orange-300 rounded-xl p-4 flex items-center justify-center px-7 py-4">
-          <p class="font-semibold text-xs lg:text-base text-black mr-2">View All Chef</p>
-          <img src="@/assets/icon/arrow.svg" class="w-2 h-2" alt="">
-        </button>
       </div>
-    </div>
-  </body>
-</main>
+    </body>
+  </main>
 </template>
+
+<script setup>
+import Navbar from '../components/Navbar.vue'
+import { ref } from 'vue'
+
+const isDropdownOpen = ref(false);
+const selectedOption = ref('Jakarta, Indonesia');
+
+const toggleDropdown = () => {
+  isDropdownOpen.value = !isDropdownOpen.value;
+};
+
+const selectOption = (option) => {
+  selectedOption.value = option;
+  isDropdownOpen.value = false;
+};
+</script>
